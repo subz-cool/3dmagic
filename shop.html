@@ -29,21 +29,27 @@
             <div class="placeholder"></div>
             <h3>Flexi Dragon</h3>
             <p>From R149</p>
-            <button>Add To Quote</button>
+            <button onclick="addToQuote('Flexi Dragon')">
+    Add To Quote
+</button>
         </div>
 
         <div class="product">
             <div class="placeholder"></div>
             <h3>Desk Organizer</h3>
             <p>From R99</p>
-            <button>Add To Quote</button>
+            <button onclick="addToQuote('Desk Organizer')">
+    Add To Quote
+</button>
         </div>
 
         <div class="product">
             <div class="placeholder"></div>
             <h3>Controller Stand</h3>
             <p>From R129</p>
-            <button>Add To Quote</button>
+            <button onclick="addToQuote('Controller Stand')">
+    Add To Quote
+</button>
         </div>
 
     </div>
@@ -52,3 +58,8 @@
 <script src="script.js"></script>
 </body>
 </html>
+<div style="text-align:center; margin-top:60px;">
+    <button onclick="requestQuote()">
+        Request Quote via WhatsApp
+    </button>
+</div>
